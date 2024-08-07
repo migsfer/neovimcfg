@@ -18,13 +18,13 @@ vim.keymap.set("n", "<leader>svwm", function()
 end)
 
 -- greatest remap ever
-vim.keymap.set("x", "<leader>p", [["_dP]])
+vim.keymap.set("x", "<leader>p", [["_dP]]) --delete to void register and replace text
 
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set({"n","v"}, "<leader>y", [["+y]])
 vim.keymap.set({"n","v"}, "<leader>Y", [["+Y]])
-vim.keymap.set({"n","v"}, "<leader>p", [["+p]])
-vim.keymap.set({"n","v"}, "<leader>P", [["+P]])
+vim.keymap.set({"n","v"}, "<leader>p", [["+p]]) -- Replace selection with clipboard content after cursor
+vim.keymap.set({"n","v"}, "<leader>P", [["+P]]) -- Replace selection with clipboard content before cursor
 
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
