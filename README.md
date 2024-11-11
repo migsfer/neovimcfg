@@ -1,5 +1,6 @@
 # neovim-cfg-based-on-primeagen-0toLSP-video
 
+## install from sources
 ```curl --location https://github.com/neovim/neovim/archive/refs/tags/stable.zip --output nvim-v0.9.5.zip```
 
 ```unzip nvim-v0.9.5.zip -d nvim-v0.9.5/```
@@ -16,3 +17,5 @@ you can run
 
 ```&& sudo dpkg -i nvim-linux64.deb```
 
+## clone this repo directly to cfg
+git clone https://github.com/migsfer/neovimcfg ~/.config/nvim
