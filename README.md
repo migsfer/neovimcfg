@@ -18,4 +18,4 @@ you can run
 ```&& sudo dpkg -i nvim-linux64.deb```
 
 ## clone this repo directly to cfg
-git clone https://github.com/migsfer/neovimcfg ~/.config/nvim
+```git clone https://github.com/migsfer/neovimcfg ~/.config/nvim```
